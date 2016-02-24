@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	body {
+		text-align: center;
+		background: #A9E8AD;
+		width: 95%;
+		margin: auto;
+	}
+	#box {
+		height: 59%;
+		width: 40%;
+		margin: auto;
+		margin-top: 6%;
+		display: block;
+		background: #E8ADAA;
+		border: 20px solid white;
+	}
+	#question {
+		padding-top: 11%;
+		font-size: 1.5em;
+		margin-bottom: 8%;
+	}
+	.button {
+		display: block;
+		height: 40px;
+		width: 140px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		cursor: pointer;
+		font-size: 20px;
+
+	}
+	#next {
+		margin-bottom: 5%;
+		width: 7em;
+		height: 3.5em;
+		cursor: pointer;
+	}
+
+	</style>
+</head>
+<body>
+  <h1>Quiz</h1>
+  <div id="box">
+  <p id="question">Question</p>
+  <p id="answer"></p>
+  <div id="options">
+  	<p class="button" id="c1"></p>
+  	<p class="button" id="c2"></p>
+  	<p class="button" id="c3"></p>
+  	<p class="button" id="c4"></p>
+  </div>
+  <button id="next">Next</button>
+ 
+  <script src="app.js"></script>
+</body>
+</html>
